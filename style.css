@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
- 
+
 section {
     height: 100vh;
     background-image: linear-gradient(120deg, #5433ff, #20bdff, #a5fecb);
@@ -16,6 +18,7 @@ section {
     padding: 10px;
     opacity: 90%;
 }
+
 .score {
     color: white;
     height: 20vh;
@@ -162,14 +165,17 @@ div.fadeIn {
         text-align: center;
     }
 
-    .player-hand {
-        height: 100%;
-        width: 100%;
+    .winner {
+        max-width: 100%;
+        max-width: 100%;
+        font-size: 35px;
     }
 
+    .hands,
+    .player-hand,
     .computer-hand {
-        height: 100%;
-        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
     }
 
     .options {
