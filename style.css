@@ -163,13 +163,13 @@ div.fadeIn {
     }
 
     .player-hand {
-        height: 125%;
-        width: 125%;
+        height: 100%;
+        width: 100%;
     }
 
     .computer-hand {
-        height: 125%;
-        width: 125%;
+        height: 100%;
+        width: 100%;
     }
 
     .options {
